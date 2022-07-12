@@ -31,6 +31,7 @@ def daily_max(data):
     :param data: 2d array with infmallation data
     :returns: an array of max values for each day
     """
+    ""
     return np.max(data, axis=0)
 
 
